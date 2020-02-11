@@ -1,0 +1,41 @@
+// TIPOGRAFÍA
+@mixin xxxxx-large {
+    font-size: 3.125rem;
+    font-weight: 700;
+}
+@mixin xxxx-large {
+    font-size: 2.813rem;
+    font-weight: 700;
+}
+@mixin xxxx-large {
+    font-size: 2.813rem;
+    font-weight: 700;
+}
+@mixin xxx-large {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+@mixin xx-large {
+    font-size: 2.188rem;
+    font-weight: 700;
+}
+@mixin x-large {
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+@mixin large {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+@mixin medium {
+    font-size: 1rem;
+    font-weight: 700;
+}
+@mixin small {
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+@mixin x-small {
+    font-size: 0.75rem;
+    font-weight: 400;
+}

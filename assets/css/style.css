@@ -1,0 +1,418 @@
+@charset "UTF-8";
+/* Font Family*/
+/* Font Weight*/
+/* Font Size*/
+/* Color*/
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden; }
+
+.texto__footer {
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 400; }
+
+.luxbar-menu {
+  background-color: white; }
+
+.contenedor {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: auto;
+  width: 100%; }
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr); }
+
+/* xs */
+.col-12 {
+  grid-column: span 12; }
+
+.col-11 {
+  grid-column: span 11; }
+
+.col-10 {
+  grid-column: span 10; }
+
+.col-9 {
+  grid-column: span 9; }
+
+.col-8 {
+  grid-column: span 8; }
+
+.col-7 {
+  grid-column: span 7; }
+
+.col-6 {
+  grid-column: span 6; }
+
+.col-5 {
+  grid-column: span 5; }
+
+.col-4 {
+  grid-column: span 4; }
+
+.col-3 {
+  grid-column: span 3; }
+
+.col-2 {
+  grid-column: span 2; }
+
+.col-1 {
+  grid-column: span 1; }
+
+/* SM */
+@media (min-width: 576px) {
+  /* desde 576px hasta 767px */
+  .contenedor {
+    width: 540px; }
+
+  .d-sm-none {
+    display: none; }
+
+  .d-sm-block {
+    display: block; }
+
+  /* COLUMNAS SM */
+  .col-sm-12 {
+    grid-column: span 12; }
+
+  .col-sm-11 {
+    grid-column: span 11; }
+
+  .col-sm-10 {
+    grid-column: span 10; }
+
+  .col-sm-9 {
+    grid-column: span 9; }
+
+  .col-sm-8 {
+    grid-column: span 8; }
+
+  .col-sm-7 {
+    grid-column: span 7; }
+
+  .col-sm-6 {
+    grid-column: span 6; }
+
+  .col-sm-5 {
+    grid-column: span 5; }
+
+  .col-sm-4 {
+    grid-column: span 4; }
+
+  .col-sm-3 {
+    grid-column: span 3; }
+
+  .col-sm-2 {
+    grid-column: span 2; }
+
+  .col-sm-1 {
+    grid-column: span 1; } }
+@media (min-width: 768px) {
+  /* desde 992px hasta 1199px */
+  .contenedor {
+    width: 750px; }
+
+  .d-md-none {
+    display: none; }
+
+  .d-md-block {
+    display: block; }
+
+  /* COLUMNAS MG */
+  .col-md-12 {
+    grid-column: span 12; }
+
+  .col-md-11 {
+    grid-column: span 11; }
+
+  .col-md-10 {
+    grid-column: span 10; }
+
+  .col-md-9 {
+    grid-column: span 9; }
+
+  .col-md-8 {
+    grid-column: span 8; }
+
+  .col-md-7 {
+    grid-column: span 7; }
+
+  .col-md-6 {
+    grid-column: span 6; }
+
+  .col-md-5 {
+    grid-column: span 5; }
+
+  .col-md-4 {
+    grid-column: span 4; }
+
+  .col-md-3 {
+    grid-column: span 3; }
+
+  .col-md-2 {
+    grid-column: span 2; }
+
+  .col-md-1 {
+    grid-column: span 1; } }
+@media (min-width: 992px) {
+  /* desde 1200px hasta el infinito y más allá*/
+  .contenedor {
+    width: 970px; }
+
+  .d-lg-none {
+    display: none; }
+
+  .d-lg-block {
+    display: block; }
+
+  .col-lg-12 {
+    grid-column: span 12; }
+
+  .col-lg-11 {
+    grid-column: span 11; }
+
+  .col-lg-10 {
+    grid-column: span 10; }
+
+  .col-lg-9 {
+    grid-column: span 9; }
+
+  .col-lg-8 {
+    grid-column: span 8; }
+
+  .col-lg-7 {
+    grid-column: span 7; }
+
+  .col-lg-6 {
+    grid-column: span 6; }
+
+  .col-lg-5 {
+    grid-column: span 5; }
+
+  .col-lg-4 {
+    grid-column: span 4; }
+
+  .col-lg-3 {
+    grid-column: span 3; }
+
+  .col-lg-2 {
+    grid-column: span 2; }
+
+  .col-lg-1 {
+    grid-column: span 1; } }
+@media (min-width: 1200px) {
+  /* desde 1200px hasta el infinito y más allá*/
+  .contenedor {
+    width: 1170px; }
+
+  .d-xl-none {
+    display: none; }
+
+  .d-xl-block {
+    display: block; }
+
+  .col-xl-12 {
+    grid-column: span 12; }
+
+  .col-xl-11 {
+    grid-column: span 11; }
+
+  .col-xl-10 {
+    grid-column: span 10; }
+
+  .col-xl-9 {
+    grid-column: span 9; }
+
+  .col-xl-8 {
+    grid-column: span 8; }
+
+  .col-xl-7 {
+    grid-column: span 7; }
+
+  .col-xl-6 {
+    grid-column: span 6; }
+
+  .col-xl-5 {
+    grid-column: span 5; }
+
+  .col-xl-4 {
+    grid-column: span 4; }
+
+  .col-xl-3 {
+    grid-column: span 3; }
+
+  .col-xl-2 {
+    grid-column: span 2; }
+
+  .col-xl-1 {
+    grid-column: span 1; } }
+/*header*/
+header {
+  background-image: url(../img/bg-hero.svg);
+  width: 100vw;
+  height: 900px;
+  margin: 0;
+  padding: 0; }
+
+/*section trekking*/
+.trekking {
+  background-image: url(../img/bg-hero.svg);
+  width: 100vw;
+  height: 900px;
+  margin: 0;
+  padding: 0; }
+
+.caja-trekking {
+  margin-top: 100px; }
+  .caja-trekking h1 {
+    font-size: 45px; }
+  .caja-trekking p {
+    font-size: 20px; }
+
+.caracteristicas {
+  width: 100%;
+  text-align: center; }
+
+/*seccion caract*/
+.texto__caract {
+  margin-top: 50px;
+  text-align: center;
+  color: #221D23; }
+
+.caja-caract {
+  margin-top: 50px; }
+
+.animation-element {
+  margin-top: 50px;
+  opacity: 0;
+  position: relative;
+  transition: all 500ms linear;
+  transform: translate3d(0px, 20px, 0px);
+  transition-delay: 0.5s; }
+
+.animation-element.in-view {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px); }
+
+/*cajas Cartas*/
+.card__imagen {
+  background-image: url(../img/bg-price.svg);
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  margin: 0;
+  padding: 0; }
+
+.card__fondo {
+  background-color: #333745;
+  margin: 0;
+  padding: 0; }
+
+h2 {
+  margin: 0;
+  font-size: x-l; }
+
+.card-price {
+  text-align: center;
+  color: #221D23; }
+
+.card-title {
+  text-align: center;
+  color: #726F73; }
+
+.card__precio {
+  color: #fff;
+  text-align: center; }
+
+.card {
+  background: #fff;
+  box-shadow: 0 1px 1px #221D23;
+  flex: 1;
+  margin: 20px 60px;
+  padding: 30px;
+  position: relative;
+  text-align: left;
+  width: 300px; }
+  .card.popular {
+    margin-top: -10px;
+    margin-bottom: -10px; }
+    .card.popular .card-action button {
+      background-color: #2AB7CA;
+      color: #fff;
+      font-size: 17px;
+      margin-top: -15px;
+      padding: 15px;
+      height: 80px; }
+      .card.popular .card-action button:hover {
+        background-color: #249cac;
+        font-size: 23px; }
+  .card:hover {
+    box-shadow: 0 8px 20px #221D23; }
+
+.card-description ul {
+  display: block;
+  margin: 20px 0;
+  padding-left: 20px;
+  padding-bottom: 30px; }
+.card-description li {
+  color: #221D23;
+  font-size: 15px;
+  margin: 0 0 15px; }
+
+.card-action button {
+  position: absolute;
+  bottom: 20px;
+  background: transparent;
+  border: 2px solid #2AB7CA;
+  color: #2AB7CA;
+  cursor: pointer;
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 20px;
+  width: 80%;
+  height: 60px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out; }
+  .card-action button:hover {
+    background-color: #2AB7CA;
+    box-shadow: 0 2px 4px #186b76;
+    color: #fff;
+    font-size: 17px; }
+
+@media (max-width: 768px) {
+  .caja-trekking {
+    width: 80%;
+    margin-top: 100px; }
+    .caja-trekking h1 {
+      font-size: 45px; }
+    .caja-trekking p {
+      font-size: 20px; } }
+footer {
+  background-color: #221D23;
+  height: 100px; }
+  footer .footer__texto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    footer .footer__texto ul, footer .footer__texto li {
+      display: flex;
+      list-style: none;
+      justify-content: start;
+      margin: 0; }
+    footer .footer__texto li {
+      padding: 10px; }
+  footer p {
+    display: flex;
+    justify-content: end;
+    margin: 0;
+    padding: 10px; }
+
+/*# sourceMappingURL=style.css.map */

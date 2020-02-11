@@ -1,0 +1,27 @@
+
+
+footer {
+    background-color: $rising-black;
+    height: 100px;
+
+    .footer__texto {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ul, li {
+            display: flex;
+            list-style: none;
+            justify-content: start;
+            margin: 0;
+        }
+        li {
+            padding: 10px;
+        }
+    }
+    p {
+        display: flex;
+        justify-content: end;
+        margin: 0;
+        padding: 10px;
+    }
+}

@@ -14,7 +14,7 @@ header{
 .trekking{
    background-image: url(../img/bg-hero.svg);
    width: 100vw;
-   height: 900px;
+   height:750px;
    margin: 0;
    padding: 0;
 }
@@ -28,26 +28,17 @@ header{
         font-size: $l;
     }
 }
-.caracteristicas{
-    
-    width: 100%;
-    text-align: center;
-}
+
 
 /*seccion caract*/
+
 .texto__caract{
-    margin-top: 50px;
-  
     text-align: center;
     color: $rising-black;
 }
 
-.caja-caract{
-    margin-top: 50px;
-}
 
 .animation-element{
-    margin-top: 50px;
     opacity: 0;
     position: relative;
     transition: all 500ms linear;
@@ -63,13 +54,19 @@ header{
 
 
 /*cajas Cartas*/
+
+.wrapper-card{
+    padding-left: 110px;
+    padding-bottom: 50px;
+}
+
 .card__imagen{
     background-image: url(../img/bg-price.svg);
     background-size: cover;
-    width: 100%;
+    width: 130%;
     height: 200px;
     margin: 0;
-    padding: 0;
+    
     
 }
 .card__fondo {
@@ -93,6 +90,7 @@ h2 {
 .card__precio{
     color: $white;
     text-align: center;
+    padding: 50px 0;
 }
 .card {
     
@@ -170,6 +168,16 @@ h2 {
 
 
 @media(max-width:768px){
+    header{
+        background-image: url(../img/bg-hero.svg);
+        width: 100vw;
+        height: 900px;
+        margin: 0;
+        padding: 0;
+    }
+    
+
+
     .caja-trekking{
         width: 80%;
         margin-top: 100px;
@@ -179,5 +187,24 @@ h2 {
         p{
             font-size: $l;
         }
+    }
+
+    .wrapper-card{
+        padding-left: 0;
+    }
+
+    .card__precio{
+        
+        padding: 30px 0;
+    }
+    
+    .card__imagen{
+        background-image: url(../img/bg-price.svg);
+     
+        width: 130%;
+        height: 100px;
+        margin: 0;
+        
+        
     }
 }
